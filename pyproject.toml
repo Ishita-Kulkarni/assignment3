@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "assignment3-calculator"
+version = "0.1.0"
+description = "A command-line calculator for Assignment 3"
+# The 'packages' property is removed from [project]
+
+[tool.setuptools.packages]
+# This tells setuptools to automatically find packages in the 'src' directory
+# The directory containing calculator.py should be listed here.
+# Assuming your source code is now in assignment3/src/
+find = {where = ["src"]}

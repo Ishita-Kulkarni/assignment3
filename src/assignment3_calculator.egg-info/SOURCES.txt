@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+src/assignment3_calculator.egg-info/PKG-INFO
+src/assignment3_calculator.egg-info/SOURCES.txt
+src/assignment3_calculator.egg-info/dependency_links.txt
+src/assignment3_calculator.egg-info/top_level.txt
+src/calculator/__init__.py
+src/calculator/calculator.py
+tests/test_operations.py
